@@ -144,12 +144,7 @@
     };
 };
 
-#line 21 "
-
-C: iryoku_shift_functions.dtsi {
-    "
-/
-
+/ {
     macros {
         u_macro_u_bt_sel_0: u_macro_u_bt_sel_0 {
             label = "ZM_u_macro_u_bt_sel_0";
@@ -300,12 +295,7 @@ C: iryoku_shift_functions.dtsi {
     };
 };
 
-#line 19 "
-
-C: iryoku_double_tap_guard.dtsi {
-    "
-/
-
+/ {
     behaviors {
         u_to_U_BASE: u_to_U_BASE {
             compatible = "zmk,behavior-tap-dance";
@@ -425,12 +415,7 @@ C: iryoku_double_tap_guard.dtsi {
     };
 };
 
-#line 4 "
-
-C: iryoku_mousekeys.dtsi {
-    "
-/
-
+/ {
     macros {
         u_macro_btn1: u_macro_btn1 {
             label = "ZM_u_macro_btn1";
@@ -480,12 +465,7 @@ C: iryoku_mousekeys.dtsi {
     };
 };
 
-#line 4 "
-
-C: iryoku_behaviors.dtsi {
-    "
-/
-
+/ {
     behaviors {
         u_mt: u_mt {
             compatible = "zmk,behavior-hold-tap";
